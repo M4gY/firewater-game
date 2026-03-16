@@ -2,8 +2,16 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
-  tags: []
+  serializedVersion: 3
+  tags:
+  - Fireboy
+  - Watergirl
+  - FireHazard
+  - WaterHazard
+  - AcidHazard
+  - Collectible
+  - PuzzleElement
+  - Checkpoint
   layers:
   - Default
   - TransparentFX
@@ -11,13 +19,13 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Ground
+  - Player
+  - FireHazard
+  - WaterHazard
+  - AcidHazard
+  - Interactable
+  - Collectible
   - 
   - 
   - 
@@ -38,6 +46,23 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 4215258721
+    locked: 0
+  - name: MidBackground
+    uniqueID: 3308232025
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: MidForeground
+    uniqueID: 1754909901
+    locked: 0
+  - name: Foreground
+    uniqueID: 4293686343
+    locked: 0
+  - name: UI
+    uniqueID: 1014989541
+    locked: 0
+  m_RenderingLayers:
+  - Default
